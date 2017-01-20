@@ -1,0 +1,18 @@
+//
+
+@import 'styles/variables';
+
+.fire-rc-navigation-header {
+  .fire-rc-navigation-item {
+    color: $gray-dark;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.fire-rc-navigation-item {
+  &.iron-selected {
+    font-weight: bold;
+  }
+}
